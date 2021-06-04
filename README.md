@@ -13,7 +13,6 @@ API para CRUD dos personagens do filme Harry Potter
     * [PostgreSQL](#postgresql)
     * [Redis](#redis)
 * [Iniciando](#iniciando)
-* [Considerações](#considerações)
 
 
 ## Sobre o Projeto
