@@ -1,0 +1,1 @@
+GRANT ALL PRIVILEGES ON DATABASE dextra_db TO harrypotter;

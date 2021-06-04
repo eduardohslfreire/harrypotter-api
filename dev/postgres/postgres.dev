@@ -1,0 +1,9 @@
+FROM postgres:9-alpine
+
+ENV POSTGRES_USER harrypotter
+ENV POSTGRES_PASSWORD harrypotter
+ENV POSTGRES_DB dextra_db
+
+ADD ./cfg/00-config-database.sql /docker-entrypoint-initdb.d/
+
+EXPOSE 5432

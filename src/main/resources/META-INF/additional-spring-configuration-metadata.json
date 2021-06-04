@@ -1,0 +1,57 @@
+{"properties": [
+  {
+    "name": "application.redis.host",
+    "type": "java.lang.String",
+    "description": "A description for 'application.redis.host'"
+  },
+  {
+    "name": "application.redis.port",
+    "type": "java.lang.String",
+    "description": "A description for 'application.redis.port'"
+  },
+  {
+    "name": "application.redis.password",
+    "type": "java.lang.String",
+    "description": "A description for 'application.redis.password'"
+  },
+  {
+    "name": "application.redis.database",
+    "type": "java.lang.String",
+    "description": "A description for 'application.redis.database'"
+  },
+  {
+    "name": "application.redis.connection-timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'application.redis.connection-timeout'"
+  },
+  {
+    "name": "application.redis.caches.houses.expiration-time-minutes",
+    "type": "java.lang.String",
+    "description": "A description for 'application.redis.caches.houses.expiration-time-minutes'"
+  },
+  {
+    "name": "application.potter-api.houses.url",
+    "type": "java.lang.String",
+    "description": "A description for 'application.potter-api.houses.url'"
+  },
+  {
+    "name": "application.potter-api.key",
+    "type": "java.lang.String",
+    "description": "A description for 'application.potter-api.key'"
+  },
+  {
+    "name": "application.circuit-breaker.max-attempts",
+    "type": "java.lang.Integer",
+    "description": "A description for 'application.circuit-breaker.max-attempts'"
+  },
+  {
+    "name": "application.circuit-breaker.open-timeout",
+    "type": "java.lang.Long",
+    "description": "A description for 'application.circuit-breaker.open-timeout'"
+  },
+  {
+    "name": "application.circuit-breaker.reset-timeout",
+    "type": "java.lang.Long",
+    "description": "A description for 'application.circuit-breaker.reset-timeout'"
+  }
+]}
