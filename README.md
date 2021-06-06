@@ -39,10 +39,13 @@ $ git clone https://github.com/eduardohslfreire/harrypotter-api.git
 ```shell
 $ cd harrypotter-api/
 ```
+> Antes de rodar o comando seguinte, certifique que a variável de ambiente $JAVA_HOME está apontada para o <a href="https://www.oracle.com/br/java/technologies/javase/jdk12-archive-downloads.html">JDK12</a> ou superior.
+
 * Realizar o Build da Aplicação através do seguinte comando:
 ```shell
-$ ./mvnw package
+$ ./mvnw install -DskipTests
 ```
+> Para executar os testes é necessário que as instâncias do [PostgreSQL](#postgresql) e [Redis](#redis) estejam UP's. Estes que serão exibidos nos passos seguintes.
 
 ### Estrutura de pastas
 ```bash
